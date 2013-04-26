@@ -5,12 +5,14 @@ let g:Powerline#Themes#default#theme = Pl#Theme#Create(
 		\ , 'fugitive:branch'
 		\ , 'hgrev:branch'
 		\ , 'fileinfo'
+		\ , 'extra:indicators'
 		\ , 'syntastic:errors'
 		\ , Pl#Segment#Truncate()
 		\ , 'tagbar:currenttag'
 		\ , Pl#Segment#Split()
 		\ , 'rvm:string'
 		\ , 'virtualenv:statusline'
+		\ , 'extra:tabs'
 		\ , 'fileformat'
 		\ , 'fileencoding'
 		\ , 'filetype'
