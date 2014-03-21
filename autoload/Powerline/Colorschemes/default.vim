@@ -96,8 +96,8 @@ let g:Powerline#Colorschemes#default#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['errors'], {
-		\ 'n': ['brightestorange', 'gray2', ['bold']],
-		\ 'i': ['brightestorange', 'darkestblue', ['bold']],
+		\ 'n': ['brightestorange', 'gray0', ['bold']],
+		\ 'i': ['brightestorange', 'gray0', ['bold']],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lineinfo.line.tot'], {
@@ -106,7 +106,11 @@ let g:Powerline#Colorschemes#default#colorscheme = Pl#Colorscheme#Init([
 		\ 'i': ['darkestcyan'],
 		\ }),
 	\
-	\ Pl#Hi#Segments(['paste_indicator', 'ws_marker'], {
+	\ Pl#Hi#Segments(['ws_marker'], {
+		\ 'n': ['white', 'gray0', ['bold']],
+		\ }),
+	\
+	\ Pl#Hi#Segments(['paste_indicator'], {
 		\ 'n': ['white', 'brightred', ['bold']],
 		\ }),
 	\
