@@ -107,7 +107,7 @@ let g:Powerline#Colorschemes#default#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ws_marker'], {
-		\ 'n': ['white', 'gray0', ['bold']],
+		\ 'n': ['white', 'gray1', ['bold']],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['paste_indicator'], {
